@@ -1,12 +1,19 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import {
+  useColorMode,
+  Heading,
+  Text,
+  Flex,
+  Stack
+} from '@chakra-ui/react'
 
-import DarkModeSwitch from '../components/DarkModeSwitch'
+import Container from '../components/Container'
+
 
 export default function Home() {
   return (
-    <>
-      <DarkModeSwitch/>
-    </>
+    <Container>
+      <Text>Hello!</Text>
+    </Container>
   )
 }
